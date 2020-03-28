@@ -6,11 +6,11 @@ module.exports = {
 
         console.log(ongs_id);
 
-        const result = await connection('ongs').select('id').where('id', ongs_id).first();
+        const result = await connection('ongs').select('name').where('id', ongs_id).first();
 
         if(result == undefined){
-            return response.status(400).json({error: "invalid ONG ID, no one FOUNDED"})
+            return response.status(400).json(result)
         } 
-        return response.status(201).json({result: "Welcome"});
+        return response.status(201).json(result);
     }
 }

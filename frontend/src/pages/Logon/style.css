@@ -1,0 +1,80 @@
+
+#centralDiv{
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    top: 50%;
+    /*background-color: blueviolet;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logoBeTheHero{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 105px;
+}
+
+#divLogon{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    /*background-color: aquamarine;*/
+    top: 250px;
+}
+#divLogon * {
+    position: relative;
+}
+#divLogon h1{
+    color: #0f0f0f;
+    margin-bottom: 25px;
+}
+#divLogon input{
+    padding: 10px 24px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 250px;
+    color: #333;
+    border: 1px solid #fff;
+}
+#divLogon button{
+    background: #ff0040;
+    color: white;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#divLogon a{
+    color: #ff0040;
+    text-decoration: none;
+    top: 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+#imgHeroesTogether{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75%;
+    width: 45%;
+    transition: opacity 0.2s;
+}
+
+#divLogon a:hover{
+    opacity: 0.85;
+}
+
+#divLogon a svg{
+    margin-right: 3px;
+    top: 2px;
+}
+#divLogon button:hover{
+    transition: 0.2s;
+    filter: brightness(85%);
+}

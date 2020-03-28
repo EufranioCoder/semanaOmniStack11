@@ -9,6 +9,6 @@ module.exports = {
         if(casos.length == 0){
             return response.status(401).json({error: "There is not incidents with this ONG"});
         }
-        return response.json({casos});
+        return response.json(casos);
     }
 }

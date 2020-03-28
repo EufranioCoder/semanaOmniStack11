@@ -1,0 +1,109 @@
+#divCentral{
+    width: 900px;
+    height: 510px;
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(44, 44, 44, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#divCentral #divEsquerda {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /*background-color: red;*/
+}
+
+#divCentral #divDireita {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /*background-color: blue;*/
+}
+
+#divCentral #divEsquerda img{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+#divCentral #divEsquerda #divContent{
+    position: absolute;
+    /*background-color: orange;*/
+    top: 210px;
+    left: 60px;
+    width: 350px;
+    height: 240px;
+}
+#divCentral #divEsquerda #divContent p{
+    margin-top: 30px;
+    color: #7e7e7e;
+}
+
+#divCentral #divEsquerda #divContent a{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    color: #ff005d;
+}
+#divCentral #divEsquerda #divContent a svg{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#divForm{
+    position: absolute;
+    top: 80px;
+    /*background-color: #ff005d;*/
+    width: 85%;
+    height: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#divForm *{
+    display: inline-block;
+}
+.caixaDeTexto{
+    border: 1px solid #5d5d5d;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #7e7e7e;
+    border: 1px solid #fff;
+    font-size: 14px;
+    width: 100%;
+    margin: 6px 0 !important;
+    background-color: white;
+}
+.caixaDeTexto#inputEmail{
+    height: 40px !important;
+}
+.caixaDeTexto:nth-child(4){
+    width: 85% !important;
+}
+.caixaDeTexto:nth-child(5){
+    width: 50px !important;
+    text-align: center;
+    right: 0;
+    position: absolute;
+}
+#divForm button{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ff005d;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-size: 13px;
+    margin-top: 10px;
+}
+#divForm button:hover{
+    transition: 0.2s;
+    filter: brightness(0.8);
+}
